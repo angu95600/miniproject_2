@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    /* body{
+        height: 100vh;
+        width: 100vw;
+    } */
+/* section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} */
+section{
+    display: flex;
+    width: 100%;
+}
+.nav{
+      display: flex;
+    height: 4.5rem;
+    width: 95rem;
+    background-color: rgba(111, 106, 247, 1);
+    flex-direction: row;
+    align-items: center;
+    position:fixed;
+    justify-content: space-between;
+    color: white;
+
+}
+.nav ul{
+   display:flex;
+   list-style: none;
+   align-items: center;
+}
+.nav li{
+    margin: 3rem;
+    font-size: large;
+    /* color: white; */
+}
+.nav input{
+   font-size: large;
+   height: 2.4rem;
+   width: 16rem;
+   border-radius: 20px;
+   padding: 1rem;
+   background-image: url(Vector.png);
+   background-repeat: no-repeat;
+   background-position:right; 
+   box-sizing: border-box;
+  
+}
+#toggle{
+    /* display: inline; */
+    background-image: url(Vector\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 5rem;
+    height: 2rem;
+    /* background-color: white; */
+    /* margin-right: 3rem; */
+}
+#dapper{
+    width: 10rem;
+    height: 2rem;
+    margin-left: 2rem;
+   background-image: url(dappr.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+    font: 'Delius Unicase';
+    box-sizing: border-box;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+}
+#cont1{
+    /* width: 100rem; */
+    display: flex;
+    height: 40rem;
+    margin-top: 3.5rem;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+#item1{
+    height: 25rem;
+    width: 20rem;
+    background-color: blue;
+    border-radius: 12px;
+    background-image: url(image\ 4.png);
+    background-position: center;
+}
+#item2{
+    height: 25rem;
+    width: 58rem;
+   background-color: rgb(229, 216, 255, 1);
+    border-radius: 12px;
+}
+
+#cont2{
+    display: flex;
+    height: 10rem;
+    /* width: 80rem; */
+    /* background-color: aqua; */
+    justify-content: space-evenly;
+    /* margin-top: ; */
+    flex-wrap: wrap-reverse;
+}
+
+
+#item3{
+    display: flex;
+     height: 9em;
+    width: 18rem;
+    /* background-color: skyblue; */
+    border-radius: 15px;
+    background-color: rgba(146, 157, 255, 1);
+    box-shadow: 6px 10px 12px gray;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+#item4{
+    display: flex;
+     height: 9rem;
+    width: 18rem;
+    /* background-color: skyblue; */
+    border-radius: 15px;
+    background-color: rgba(115, 76, 242, 1);
+     box-shadow: 6px 10px 12px gray;
+     justify-content: center;
+     flex-direction: column;
+
+}
+/* #item5{
+   height: 10rem;
+   box-shadow: 6px 10px 12px gray; width: 18rem; border-radius: 15px; background-color:rgba(210, 136, 255, 1) ;
+     
+
+} */
+#item6{
+   display: flex;
+     height: 9rem;
+    width: 18rem;
+    /* background-color: skyblue; */
+    border-radius: 15px;
+    background-color: black;
+     box-shadow: 6px 10px 12px gray;
+     justify-content: center;
+     flex-direction: column;
+     
+}
+#cont3{
+    display: flex;
+    height: 30rem;
+    /* width: 80rem; */
+    /* background-color: aqua; */
+    margin-top: 8rem;
+    margin-left: 2.6rem;
+    /* margin-right: 5rem; */
+    box-sizing: border-box;
+    background-color:rgba(72, 62, 255, 1);
+    align-items: center;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+    /* justify-content: space-between; */
+}
+#item7{
+    display: flex;
+   height: 25rem;
+   width: 20rem;
+   /* background-color: aqua; */
+   margin-left: 4rem;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   /* border-radius: 20px; */
+   box-sizing: border-box;
+}
+#item8{
+    height: 26.2rem;
+    width: 51rem;
+    background-color: white;
+    margin-left: 2rem;
+    border-radius: 20px;
+}
+.box{
+
+    display: flex;
+    width: 89rem;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-left: 4rem;
+}
+
+.smedia{
+    display: flex;
+   /* margin-top: 10rem; */
+   margin-left: 3rem;
+    height: 88rem;
+    flex-direction: column;
+    /* justify-content:; */
+    /* width: rem; */
+    /* background-color: blue; */
+   
+   
+}
+#sm{
+    display: flex;
+    width: 5rem;
+    height: 16.4rem;
+    /* background-color: aqua; */
+    position: sticky;
+    /* top: 10rem; */
+    /* bottom: 5rem; */
+    top: 10rem;
+    background-image: url(Frame\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#sm1{
+    width: 6rem;
+    height: 8rem;
+    margin-top: 29rem;
+    /* margin-right: 2rem; */
+    background-image: url(Group\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: aqua; */
+    position: sticky;
+    top: 45rem;
+    bottom: 0rem;
+}
+.btn{
+    height: 1.5rem; background-color: rgba(72, 62, 255, 1);width: 10rem;text-align: center;padding: 2rem;border-radius: 20px; border: 5px solid white;color: white;font-size: x-large;
+    box-shadow: 8px 8px 8px rgb(47, 42, 147);
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(188, 224, 246, 1);
+    border: 5px solid rgba(72, 62, 255, 1);
+}
+input::placeholder{
+    font-size: large;
+    letter-spacing: 2px;
+    
+}
+.item2 ,p{
+    padding: 1rem;
+    font-size: large;
+    font: DM Sans;
+}
+.para{
+    color: white;
+    /* height: 4rem; */
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.para1{
+    /* height: 6rem; */
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.info{
+    margin-left: 4rem;
+    margin-top: 2rem;
+    font-size: x-large;
+}
+.info1{
+    margin-left: 4rem;
+    margin-top: 2rem;
+    font-size: x-large;
+}
+.next{
+    margin-left: 34em;
+}
+.next,button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 9rem;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    font-size: large;
+    
+    
+
+}
+.next,button:hover{
+    background-color: rgb(44, 41, 41);
+    cursor: pointer;
+}
+
+</style>
+<body>
+    <navbar class="nav">
+        <div id="dapper">
+            <!-- <img src="dappr.png" alt="" srcset=""> -->
+        </div>
+       <ul>
+
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Information</li>
+        <li>More</li>
+        <li><input type="text" placeholder="Search"></li>
+       </ul>
+       
+       <div id="toggle"></div>
+    <!-- <div id="toggle"></div>
+    <div id="toggle"></div> -->
+    </navbar>
+    <section>
+        
+        <div class="box">
+        <div id="cont1">
+            <div id="item1"></div>
+            <div id="item2"><p>It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a ......</p></div>
+            
+                <!-- <div id="sm" style="height: 20rem; width: 4rem; background-color: blue;">
+                    <div id="sm1"></div>
+                    <div id="sm2"></div>
+                    <div id="sm3"></div>
+                </div> -->
+            
+        </div>
+       
+        
+        <div id="cont2">
+            <div id="item3">
+               <div class="para">Total Students</div>  
+               <div class="para1">100000</div>
+            </div>
+            <div id="item4"><div class="para">Total Answers</div>
+        <div class="para1">100000</div>
+        </div>
+            <div id="itme5" style=" display: flex; justify-content: center; height: 9rem;box-shadow: 6px 10px 12px gray; width: 18rem; border-radius: 15px; background-color:rgba(210, 136, 255, 1) ;flex-direction: column;">
+                <div class="para">Participated</div>
+                <div class="para1">100000</div>
+            </div>
+            <div id="item6"><div class="para">Total Passed</div>
+        <div class="para1">100000</div>
+        </div>
+        </div>
+        <div id="cont3">
+            <div id="item7">
+                <buttton class="btn" style=>YOUR INFO</buttton>
+                <buttton class="btn" >BOOKMARKS</buttton>
+                <buttton class="btn" >SETTINGS</buttton>
+            </div>
+            <div id="item8">
+               <diV class="info">
+                <h1>Your Information</h1>
+               </diV>
+               <div class="info1">
+                <p><b>Name</b> : Angesh</p>
+                <p><b>Email</b> : angu95600@gmail.com</p>
+                <p><b>Phone Number</b> : 535131164645</p>
+                <p><b>Marks</b> : 500</p>
+               </div>
+               <div class="next">
+                <button>Next<img src="Arrow 1.png" style="height: 1.2rem; margin-left: 6px;"></button>
+               </div>
+            </div>
+        </div>
+       </div>
+       <div class="smedia">
+        <div id="sm">  
+        </div>
+        <div id="sm1"></div>
+       
+       </div>
+       
+    </section> 
+       
+    
+   
+</body>
+</html>
